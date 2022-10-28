@@ -10,7 +10,7 @@
                   <h2>Portfolio Details</h2>
                   <div class="page_link">
                       <a href="{% url 'home' %}">Home</a>
-                      <a href="{% url 'portfolio-details' item.id %}">Porfolio Single</a>
+                      <a href="{% url 'portfolio-details' item.id %}">Porfolio</a>
                   </div>
               </div>
           </div>
@@ -58,52 +58,5 @@
   </section>
   <!--================End Portfolio Details Area =================-->
 
-  <!--================ Start Brands Area =================-->
-	<section class="brands-area section_gap_bottom">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-12">
-					<div class="owl-carousel brand-carousel">
-						<!-- single-brand -->
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="{% static 'img/brands/logo1.png' %}" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="{% static 'img/brands/logo2.png' %}" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="{% static 'img/brands/logo3.png' %}" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="{% static 'img/brands/logo4.png' %}" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="{% static 'img/brands/logo5.png' %}" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="{% static 'img/brands/logo3.png' %}" alt="">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Brands Area =================-->
+  
 {% endblock %}

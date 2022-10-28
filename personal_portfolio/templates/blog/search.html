@@ -7,8 +7,7 @@
       <div class="blog_item_img">
         <img class="card-img rounded-0" src="{{ post.photo.url }}" alt="">
         <a href="#" class="blog_item_date">
-          <h3>15</h3>
-          <p>Jan</p>
+          <p>{{ post.pub_date|date:'d' }}</p>
         </a>
       </div>
 
@@ -19,7 +18,7 @@
           <p>{{ post.content|safe }}</p>
           <ul class="blog-info-link">
             <li><a href="#"><i class="far fa-user"></i>{{ post.category }}</a></li>
-            <li><a href="#"><i class="far fa-comments"></i> 03 Comments</a></li>
+           
           </ul>
       </div>
     </article>
