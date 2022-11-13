@@ -18,9 +18,7 @@ class AuthorProfile(models.Model):
     )
     gender = models.CharField(choices=gender_choice, max_length=500)
     facebook_url = models.URLField(null=True, blank=True)
-    twitter_url = models.URLField(null=True, blank=True)
     linkedin_url = models.URLField(null=True, blank=True)
-    skype_url = models.URLField(null=True, blank=True)
     github_url = models.URLField(null=True, blank=True)
     date = models.DateTimeField(auto_now_add=True)
 

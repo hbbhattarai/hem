@@ -41,10 +41,8 @@
                     <h4 class="text-uppercase">Project Info</h4>
                     <h3>{{ item.title }}</h3>
                     <ul class="list">
-                        <li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                class="fa fa-star"></i></li>
                         <li><span>Client</span>: {{ item.client }}</li>
-                        <li><span>Website</span>: {{ item.website }}</li>
+                        <li><span>Website</span>: <a href="{{ item.website }}"> {{ item.website }}</a></li>
                         <li><span>Completed</span>: {{ item.complete_date }}</li>
                     </ul>
                 </div>
